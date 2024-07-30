@@ -10,13 +10,6 @@ public class stringEncoder {
     //static int offsetCharacter = random.nextInt(44);
     static int offsetCharacter = 5;
 
-    public static void main(String[] args) {
-        String encodedString = encode(args[0]);
-        System.out.println(encodedString);
-        String decodedString = decode(encodedString);
-        System.out.println(decodedString);
-    }
-
     public static String encode(String plainText) {
         String encodedString = "";
         for (int i = 0; i < offsetCharacter; i++) {
